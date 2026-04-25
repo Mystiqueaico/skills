@@ -10,6 +10,9 @@ A skill is a self-contained Markdown file (`SKILL.md`) with YAML frontmatter tha
 
 ## Available Skills
 
+### [writing-frameworks](./writing-frameworks/)
+A toolbox of eight structural frameworks for short-form drafting — ABDCE story, atomic essay, the writing warm-up, eleven hook formats, Hook→Point→Action, post type rotation, the borrowed lens, and objection-handling. Picks the right structural tool for the input (raw notes, topic + audience, or an existing draft to restructure), then drafts with it. Pairs with `writing-principles` and `avoid-ai-writing` as the full short-form writing chain — frameworks → voice → AI-pattern scrub.
+
 ### [writing-principles](./writing-principles/)
 Apply universal voice and substance rules to edit, audit, or rewrite short-form content. Two always-apply layers — Hormozi sentence craft (readability, active voice, kill adverbs/fillers, concrete-over-abstract) and Every substance and voice (show the mess, open with friction, one big idea, personal stakes, endings that extend not recap, resonance test).
 
