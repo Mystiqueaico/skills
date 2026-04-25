@@ -2,7 +2,7 @@
 
 A library of agent skills for AI-native operators.
 
-These are operating procedures behind [Mystique](https://mystique.ai) — distilled, packaged, and shared as the same SKILL.md files our agents run on. Drop one into your AI assistant's skill directory and it triggers automatically when the prompt matches.
+These are operating procedures behind [Mystique](https://mystiqueai.co) — distilled, packaged, and shared as the same SKILL.md files our agents run on. Drop one into your AI assistant's skill directory and it triggers automatically when the prompt matches.
 
 ## What is a skill?
 
@@ -15,6 +15,9 @@ Apply universal voice and substance rules to edit, audit, or rewrite short-form 
 
 ### [battle-test](./battle-test/)
 A six-voice adversarial panel for pressure-testing offers, ads, landing pages, sales copy, or product launches before shipping. Default panel: Brunson, Cole Gordon, Hormozi, Matt Gray, Justin Welsh, Dickie Bush. Output is a numeric scorecard, pattern analysis, and ship-now / defer / reject triage — structured dissent, not consensus review.
+
+### [session-context](./session-context/)
+End-of-session self-improvement cycle. At the close of any working session, the skill audits the conversation, captures decisions and lessons in dated memory files, applies fixes to skills or `CLAUDE.md` when the session revealed a concrete gap, and opens a PR with all changes scoped for under-2-minute review. Triggered by `/session-context` or natural language like "done for today," "wrap up," or "signing off." Requires git + GitHub CLI.
 
 ## Install
 
